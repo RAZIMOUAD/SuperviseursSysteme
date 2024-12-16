@@ -62,10 +62,38 @@ src/
 - **JDK 22** ou version compatible.
 - **JavaFX SDK** (téléchargeable depuis [OpenJFX](https://openjfx.io/)).
 
+  ### **Étapes**
+1. **Cloner le dépôt** :
+   ```bash
+   git clone https://github.com/RAZIMOUAD/SuperviseursSysteme.git
+   cd SuperviseursSysteme
+   ```
+
+2. **Configurer JavaFX dans votre IDE** :
+   Ajoutez les arguments VM suivants dans votre configuration d'exécution :
+   ```plaintext
+   --module-path "chemin/vers/javafx/lib" --add-modules javafx.controls,javafx.fxml
+   ```
+
+3. **Lancer l'application** :
+   Exécutez la classe principale `MainApp.java` pour démarrer l'interface.
+
+---
+
+## **Exemple de fichier CSV**
+Voici un aperçu du format attendu pour les fichiers CSV à importer :
+```csv
+Jean, Dupont, jean.dupont@example.com, 123456789
+Alice, Martin, alice.martin@example.com, 987654321
+Paul, Durand, paul.durand@example.com, 123450987
+Jean, Dupont, jean.dupont@example.com, 123456789
+```
+
+---
 ---
 
 ## **Auteur**
-Projet réalisé par **[RAZI MOUAD]**, étudiant en **ingénierie informatique**.
+Projet réalisé par **RAZI MOUAD**, étudiant en **ingénierie informatique**.
 
 ---
 ## **Améliorations possibles**
